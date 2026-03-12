@@ -32,15 +32,15 @@ const NavBar = () => {
             <NavDropdown
               bg="dark"
               variant="dark"
-              title="Course"
+              title="Topics"
               id="basic-nav"
               className="nav-item active"
             >
               <NavDropdown.Item className="nav-item active" style={dropdownStyle}>
                 <Link className="nav-item" style={linkStyle} to="/gallery">
-                  <button className="nav-link rounded">Steam</button>
+                  <button className="nav-link rounded">Sterilizers</button>
                 </Link>
-                <Link className="nav-item" style={linkStyle} to="/gallery">
+                {/*<Link className="nav-item" style={linkStyle} to="/gallery">
                   <button className="nav-link rounded">Ethylene Oxide (EO)</button>
                 </Link>
                 <Link className="nav-item" style={linkStyle} to="/gallery">
@@ -57,7 +57,7 @@ const NavBar = () => {
                 </Link>
                 <Link className="nav-item" style={linkStyle} to="/gallery">
                   <button className="nav-link rounded">DRY HEAT</button>
-                </Link> 
+                </Link>*/ }
               </NavDropdown.Item>
             </NavDropdown>
 

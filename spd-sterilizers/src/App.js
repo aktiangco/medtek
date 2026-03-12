@@ -9,6 +9,11 @@ import Error from './components/Error';
 import Gallery from './components/Gallery';
 import Dryheat from './components/topics/Dryheat';
 import Eo from './components/topics/Eo';
+import Ltgp from './components/topics/Ltgp';
+import Ozone from './components/topics/Ozone';
+import Steam from './components/topics/Steam';
+import Vpro from './components/topics/Vpro';
+import Iuss from './components/topics/Iuss';
 import './App.css';
 
 const App = () => (
@@ -21,6 +26,13 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<Error />} />
+        <Route path="/Dryheat" element={<Dryheat />} />
+          <Route path="/Eo" element={<Eo />} /> 
+          <Route path="/Ltgp" element={<Ltgp />} />
+          <Route path="/Ozone" element={<Ozone />} />
+          <Route path='/Steam' element={<Steam />} />
+          <Route path="/Vpro" element={<Vpro />} />
+          <Route path="/Iuss" element={<Iuss />} />
       </Routes>
     </div>
     <Footer />

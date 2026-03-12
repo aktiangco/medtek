@@ -9,7 +9,8 @@ const Home = () => {
     const cardStyle = {
       color: 'white',
       backgroundColor: 'cornflowerblue',
-      border: '1px black solid'
+      border: '1px black solid',
+      display: 'flex'
     };
   
     return (
