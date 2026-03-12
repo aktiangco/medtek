@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
-import schoolImage from '../assets/school.jpeg';
+import schoolImage from '../assets/med.png';
 
 
 const Home = () => {

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
@@ -10,24 +9,20 @@ import Error from './components/Error';
 import Gallery from './components/Gallery';
 import './App.css';
 
-const App = () => {
-  return (
-    <div className="app-css">
-      <NavBar />
-      <div className="main-container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Error />} /> 
-          <Route path="/gallery" element={<Gallery />} />
-
-        </Routes>
-      </div>
-      <Footer />
-      
-      </div>
-  );
-}
+const App = () => (
+  <div className="app-css">
+    <NavBar />
+    <div className="main-container">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </div>
+    <Footer />
+  </div>
+);
 
 export default App;

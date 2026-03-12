@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div>
                 <div style={{ padding: '10px'}}>
-                    © {new Date().getFullYear()} Nurse Plus. All rights reserved.
+                    © {new Date().getFullYear()} SPD STERILIZATION. All rights reserved.
                 </div>
             </div>
             <div style={{display: 'flex', justifyContent: 'space-between'}}>
