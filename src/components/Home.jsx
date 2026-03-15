@@ -17,7 +17,7 @@ const Home = () => {
             <Image
               style={{
                 width: "100%",
-                height: "450px",
+                height: "600px",
                 objectFit: "cover",
                 borderRadius: "10px",
                 border: "1px black solid",
@@ -60,6 +60,18 @@ const Home = () => {
                 }}
               >
                 Podcast Report
+              </button>
+            </Link>
+            <Link to="/group">
+              <button
+                className="rounded custom-btn btn-hover"
+                style={{
+                  backgroundColor: "#52dcc5",
+                  border: "none",
+                  color: "black",
+                }}
+              >
+                Group Project
               </button>
             </Link>
           </Card.Text>

@@ -30,7 +30,7 @@ const Group = () => {
               fluid
             />
             <br></br>
-            <h2>The Clean Team</h2>
+            <h2>The Clean Pean Team</h2>
           </Card.Text>
           <Card.Text>
             <div
