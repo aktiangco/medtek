@@ -16,14 +16,15 @@ function Podcast() {
             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
               <img
                 src={profile}
-                alt="Allan Kris Tiangco"
+                alt="or and spd photo"
                 className="section-image"
+                style={{ height: "200px", width: "300px" }}
               />
               <div>
-                <h6>
+                <h3>
                   OR/SPD Collaboration and the 2018 OR Today Live Conference
                   (featuring David Taylor)
-                </h6>
+                </h3>
                 <div style={{ padding: "5px" }}>
                   <a
                     className="rounded custom-btn"

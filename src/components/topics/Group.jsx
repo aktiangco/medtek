@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import profile from "../../assets/images/logo.png";
+import Image from "react-bootstrap/Image";
+import group from "../../assets/images/group.png";
 import me from "../../assets/images/me.png";
 import adiel from "../../assets/images/adiel.png";
 import vinessa from "../../assets/images/vinessa.png";
@@ -14,8 +15,23 @@ const Group = () => {
       <Card className="container custom-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
-            <h1>Group Project</h1>
+            <h1 style={{ textAlign: "center" }}>Sterilizer's Group Project</h1>
           </Card.Title>
+          <Card.Text style={{ textAlign: "center" }}>
+            <Image
+              style={{
+                width: "75%",
+                height: "500px",
+                objectFit: "cover",
+                borderRadius: "10px",
+                border: "1px black solid",
+              }}
+              src={group}
+              fluid
+            />
+            <br></br>
+            <h2>The Clean Team</h2>
+          </Card.Text>
           <Card.Text>
             <div
               className="section-bubble"
@@ -26,7 +42,7 @@ const Group = () => {
                 <h2>Steam Sterilizer</h2>
                 <h5>Alcala, Eric</h5>
                 <a
-                  href="https://aktiangco.github.io/#/" // update link here
+                  href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn"
@@ -54,7 +70,7 @@ const Group = () => {
                 <h2>Ethylene Oxide</h2>
                 <h4>Valquez Gonzalez, Adiel</h4>
                 <a
-                  href="https://aktiangco.github.io/#/" // update link here
+                  href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn"
@@ -81,7 +97,7 @@ const Group = () => {
                 <h2>Low-Temperature Gas Plasma</h2>
                 <h4>Bejarin, John</h4>
                 <a
-                  href="https://aktiangco.github.io/#/" // update link here
+                  href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn"
@@ -108,7 +124,7 @@ const Group = () => {
                 <h2>Low-Temperature Hydrogen Peroxide(V-Pro)</h2>
                 <h4>Trejo, Cesar</h4>
                 <a
-                  href="https://aktiangco.github.io/#/" // update link here
+                  href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn"
@@ -135,7 +151,7 @@ const Group = () => {
                 <h2>Hydrogen Peroxide Ozone Sterilization</h2>
                 <h4>Cofield, Vinessa</h4>
                 <a
-                  href="https://aktiangco.github.io/#/" // update link here
+                  href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn"
@@ -162,7 +178,7 @@ const Group = () => {
                 <h2>Dry Heat and IUSS</h2>
                 <h4>Tiangco, Allan</h4>
                 <a
-                  href="https://aktiangco.github.io/#/" // update link here
+                  href="https://aktiangco.github.io/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn"
