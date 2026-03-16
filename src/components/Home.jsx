@@ -26,7 +26,7 @@ const Home = () => {
               fluid
             />
           </Card.Text>
-          <Card.Text>
+          <Card.Text className="paragraph-indent">
             As part of my training in sterile processing, I am currently working
             on a project focused on sterilizers used in the Sterile Processing
             Department. This project is designed to help improve my

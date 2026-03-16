@@ -8,15 +8,15 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 const NavBar = () => {
   return (
     <Navbar className="navbar-fixed" bg="dark" expand="lg" variant="dark">
-      <Container>
+      <Container >
         <Navbar.Brand as={Link} to="/">
           MedTek Hayward
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"  />
 
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Collapse id="basic-navbar-nav" >
+          <Nav className="me-auto" >
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
@@ -57,7 +57,7 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/podcast">
               Podcast Report
             </Nav.Link>
-            <Nav.Link as={Link} to="/group">
+            <Nav.Link  as={Link} to="/group">
               Group Project
             </Nav.Link>
             <Nav.Link as={Link} to="/about">
