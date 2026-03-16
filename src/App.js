@@ -16,11 +16,13 @@ import Vpro from './components/topics/Vpro';
 import Iuss from './components/topics/Iuss';
 import Podcast from './components/topics/Podcast';
 import Group from './components/topics/Group';
+import ScrollToTopButton from "./components/ScrollToTopButton";
 import './App.css';
 
 const App = () => (
   <div className="app-css">
     <NavBar />
+    <ScrollToTopButton />
     <div className="main-container">
       <Routes>
         <Route path="/" element={<Home />} />

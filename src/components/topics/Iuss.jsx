@@ -23,7 +23,7 @@ const Iuss = () => {
                 <ul>
     <li>
       Immediate-Use Steam Sterilization (IUSS) is the current term for what was
-      previously called flash sterilization.
+      previously called <b>flash sterilization.</b>
     </li>
 
     <li>
@@ -55,8 +55,8 @@ const Iuss = () => {
     </li>
 
     <li>
-      All IUSS cycles must be monitored and documented according to hospital
-      policy and accreditation requirements.
+      All IUSS cycles <b>must be monitored and documented according to hospital
+      policy and accreditation requirements.</b>
     </li>
   </ul>
               </div>
@@ -99,8 +99,8 @@ const Iuss = () => {
                 <h4 style={{ textDecoration: "underline" }}>Important Notes About IUSS Cycles</h4>
                 <ul>
                   <li>
-                    IUSS cycles do not include a drying phase, so instruments
-                    may come out moist or wet.
+                    IUSS cycles <b>do not include a drying phase, so instruments
+                    may come out moist or wet.</b>
                   </li>
                   <li>
                     The manufacturer’s instructions (IFU) must always be
@@ -127,7 +127,7 @@ const Iuss = () => {
                 <h4 style={{ textDecoration: "underline" }}>Proper Loading</h4>
   <ul>
     <li>Items must be thoroughly cleaned and decontaminated before being placed in the sterilizer.</li>
-    <li>Use approved rigid sterilization containers (FlashPak) or trays designed for IUSS.</li>
+    <li>Use approved rigid sterilization containers <b>(FlashPak)</b> or trays designed for IUSS.</li>
     <li>Arrange instruments so steam can circulate freely around all surfaces.</li>
   </ul>
 
@@ -263,7 +263,7 @@ const Iuss = () => {
                 <h2>How to test IUSS Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>Physical Monitoring</h4>
   <ul>
-    <li>Time, temperature, and pressure must be checked for every sterilization cycle.</li>
+    <li><b>Time, temperature, and pressure</b> must be checked for every sterilization cycle.</li>
     <li>These values are recorded by the sterilizer's display or printout.</li>
   </ul>
 
