@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.11c079ea.css",
+    "main.css": "/static/css/main.9c9c3788.css",
     "main.js": "/static/js/main.86b73199.js",
     "static/media/group3.png": "/static/media/group3.58a7a2a8757574fa40d9.png",
     "static/media/eric2.png": "/static/media/eric2.21b59509ec84e1bba739.png",
@@ -53,11 +53,11 @@
     "static/media/steam-machine.png": "/static/media/steam-machine.d747f3c210b6f0bc8f59.png",
     "static/media/vpro-machine.png": "/static/media/vpro-machine.6141658a7ca710af261b.png",
     "index.html": "/index.html",
-    "main.11c079ea.css.map": "/static/css/main.11c079ea.css.map",
+    "main.9c9c3788.css.map": "/static/css/main.9c9c3788.css.map",
     "main.86b73199.js.map": "/static/js/main.86b73199.js.map"
   },
   "entrypoints": [
-    "static/css/main.11c079ea.css",
+    "static/css/main.9c9c3788.css",
     "static/js/main.86b73199.js"
   ]
 }
