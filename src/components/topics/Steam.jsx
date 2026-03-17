@@ -11,7 +11,7 @@ import wrapper from "../../assets/images/steam/steam-wrapper.png";
 import rigid from "../../assets/images/steam/wrapper.png";
 import monitor from "../../assets/images/steam/steam-monitor.png";
 import ci from "../../assets/images/steam/steam-autoclave.png";
-import bi from "../../assets/images/steam/steam-bi.png";
+import bi from "../../assets/images/steam/steam-bowie.png";
 import procon from "../../assets/images/pro-con.png";
 
 const Steam = () => {
