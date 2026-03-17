@@ -199,7 +199,7 @@ const Steam = () => {
               <div>
                 <img
                   src={gravity}
-                  className="stack-image"
+                  className="section-image"
                   style={{
                     width: "385px",
                     height: "300px",
@@ -212,7 +212,7 @@ const Steam = () => {
                 <br />
                 <img
                   src={dynamic}
-                  className="stack-image"
+                  className="section-image"
                   style={{
                     width: "385px",
                     height: "300px",
@@ -225,7 +225,7 @@ const Steam = () => {
                 <br />
                 <img
                   src={cycle}
-                  className="stack-image"
+                  className="section-image"
                   style={{
                     width: "385px",
                     height: "300px",
@@ -241,7 +241,7 @@ const Steam = () => {
               <div>
                 <img
                   src={loading}
-                  className="stack-image"
+                  className="section-image"
                   style={{
                     width: "300px",
                     height: "200px",
@@ -253,7 +253,7 @@ const Steam = () => {
                 <br />
                 <img
                   src={load}
-                  className="stack-image"
+                  className="section-image"
                   style={{
                     width: "300px",
                     height: "200px",
@@ -265,7 +265,7 @@ const Steam = () => {
                 <br />
                 <img
                   src={unloading}
-                  className="stack-image"
+                  className="section-image"
                   style={{
                     width: "300px",
                     height: "200px",
@@ -637,7 +637,7 @@ const Steam = () => {
               <div>
                 <img
                   src={monitor}
-                  className="stack-image"
+                  className="section-image"
                   style={{
                     width: "300px",
                     height: "50%",
@@ -650,7 +650,7 @@ const Steam = () => {
 
                 <img
                   src={ci}
-                  className="stack-image"
+                  className="section-image"
                   style={{
                     width: "300px",
                     height: "50%",
@@ -662,7 +662,7 @@ const Steam = () => {
                 <br />
                 <img
                   src={bi}
-                  className="stack-image"
+                  className="section-image"
                   style={{
                     width: "300px",
                     height: "50%",

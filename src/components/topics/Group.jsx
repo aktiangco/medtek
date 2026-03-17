@@ -8,6 +8,10 @@ import vinessa from "../../assets/images/profile/vinessa2.png";
 import john from "../../assets/images/profile/john2.png";
 import cesar from "../../assets/images/profile/cesar2.png";
 import eric from "../../assets/images/profile/eric2.png";
+import {
+  Google,
+  FileEarmarkPptFill 
+} from "react-bootstrap-icons";
 
 const Group = () => {
   return (
@@ -54,7 +58,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Google Slides
+                  <Google />
+                <FileEarmarkPptFill />
                 </a>
               </div>
             </div>
@@ -82,7 +87,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Google Slides
+                  <Google />
+                <FileEarmarkPptFill />
                 </a>
               </div>
             </div>
@@ -109,7 +115,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Google Slides
+                  <Google />
+                <FileEarmarkPptFill />
                 </a>
               </div>
             </div>
@@ -136,7 +143,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Google Slides
+                  <Google />
+                <FileEarmarkPptFill />
                 </a>
               </div>
             </div>
@@ -163,7 +171,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Google Slides
+                  <Google />
+                <FileEarmarkPptFill />
                 </a>
               </div>
             </div>
@@ -190,7 +199,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Google Slides
+                  <Google />
+                <FileEarmarkPptFill />
                 </a>
               </div>
             </div>

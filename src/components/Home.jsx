@@ -46,7 +46,7 @@ const Home = () => {
                   color: "black",
                 }}
               >
-                Sterilization
+                Sterilization Project
               </button>
             </Link>
 
