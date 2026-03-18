@@ -566,10 +566,7 @@ const Steam = () => {
 
           <Card.Text>
             <div
-              className="section-bubble"
-              style={{
-                paddingLeft: "150px",
-              }}
+className="section-bubble"
             >
               <div>
                 <h2>Testing Sterilizer</h2>
@@ -635,7 +632,7 @@ const Steam = () => {
                 </div>
               </div>
               <div>
-                <img
+              <img
                   src={monitor}
                   className="section-image"
                   style={{
@@ -647,7 +644,6 @@ const Steam = () => {
                 />
                 <br />
                 <br />
-
                 <img
                   src={ci}
                   className="section-image"
