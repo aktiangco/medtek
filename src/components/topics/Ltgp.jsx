@@ -9,10 +9,10 @@ import loading from "../../assets/images/ltgp/ltgp-loading.png";
 import unloading from "../../assets/images/ltgp/ltgp-unloading.png";
 import wrapper from "../../assets/images/ltgp/ltgp-wrapper.png";
 import wrapper2 from "../../assets/images/ltgp/ltgp-wrapper2.png";
+import procon from "../../assets/images/pro-con.png";
 import monitor from "../../assets/images/ltgp/ltgp-monitor.png";
 import ci from "../../assets/images/ltgp/ltgp-ci.png";
 import bi from "../../assets/images/ltgp/ltgp-bi.png";
-import procon from "../../assets/images/pro-con.png";
 
 const Ltgp = () => {
   return (

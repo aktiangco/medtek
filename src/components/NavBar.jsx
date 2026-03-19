@@ -33,11 +33,7 @@ const NavBar = () => {
       <Container>
         <Navbar.Brand as={Link} to="/" onClick={closeMenu}>
           <div className="logo-header">
-            <img
-              src={medtek}
-              alt="logo"
-              className="logo-img"
-              />
+            <img src={medtek} alt="logo" className="logo-img" />
             <h2 className="logo-text">MedTek Hayward</h2>
           </div>
         </Navbar.Brand>

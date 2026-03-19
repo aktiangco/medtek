@@ -428,7 +428,7 @@ const Eo = () => {
                 />
               </div>
               <div>
-                <h2>Containers</h2>
+                <h2>Wrappers & Containers</h2>
                 <ul>
                   <li>
                     Use packaging materials that allow EO gas to penetrate and

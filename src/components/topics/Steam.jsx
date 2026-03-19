@@ -32,7 +32,7 @@ const Steam = () => {
                 className="section-image"
                 style={{
                   width: "300px",
-                  height: "350px",
+                  height: "60%",
                   borderRadius: "10%",
                   objectFit: "cover",
                 }}

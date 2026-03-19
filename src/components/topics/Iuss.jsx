@@ -262,7 +262,7 @@ const Iuss = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Rigid Containers Used for IUSS</h2>
+                <h2>Wrappers & Containers </h2>
 
                 <p>
                   For Immediate-Use Steam Sterilization (IUSS), instruments
