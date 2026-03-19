@@ -37,7 +37,7 @@ const Contact = () => {
         "k5Ua3QxLrv-6FT1-4"
       )
       .then(() => {
-        alert("Survey sent successfully!");
+        alert("THANK YOU, COME AGAIN!!!");
         setFormData({ name: "", email: "", message: "" });
       })
       .catch(() => {
