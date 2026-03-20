@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/medtek/static/css/main.51c1e786.css",
-    "main.js": "/medtek/static/js/main.30b135a3.js",
+    "main.js": "/medtek/static/js/main.cc2e5bbd.js",
     "static/media/group3.png": "/medtek/static/media/group3.58a7a2a8757574fa40d9.png",
     "static/media/eric2.png": "/medtek/static/media/eric2.21b59509ec84e1bba739.png",
     "static/media/cesar2.png": "/medtek/static/media/cesar2.89a53700a311a0e0cf11.png",
@@ -82,6 +82,7 @@
     "static/media/eo-machine.png": "/medtek/static/media/eo-machine.3a8cee1b9a96038e6253.png",
     "static/media/iuss-machine.png": "/medtek/static/media/iuss-machine.7c833812f075f15ee87a.png",
     "static/media/john2.png": "/medtek/static/media/john2.b82e9d5d6bb2b0f65e32.png",
+    "static/media/puu.png": "/medtek/static/media/puu.ba8af0694abeb06b2e1c.png",
     "static/media/steam-loading.png": "/medtek/static/media/steam-loading.e380f2772376447ff36f.png",
     "static/media/ltgp-nx.png": "/medtek/static/media/ltgp-nx.3762917eebb66db60717.png",
     "static/media/ltgp-machine.png": "/medtek/static/media/ltgp-machine.ce92af5283bb1b2c0151.png",
@@ -92,10 +93,10 @@
     "static/media/eo-bi.png": "/medtek/static/media/eo-bi.49f212388947494d71d3.png",
     "index.html": "/medtek/index.html",
     "main.51c1e786.css.map": "/medtek/static/css/main.51c1e786.css.map",
-    "main.30b135a3.js.map": "/medtek/static/js/main.30b135a3.js.map"
+    "main.cc2e5bbd.js.map": "/medtek/static/js/main.cc2e5bbd.js.map"
   },
   "entrypoints": [
     "static/css/main.51c1e786.css",
-    "static/js/main.30b135a3.js"
+    "static/js/main.cc2e5bbd.js"
   ]
 }
