@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import profile from "../assets/images/profile/me.png";
+import straw from "../assets/images/luffy.gif";
 import {
   Instagram,
    Linkedin,
@@ -13,6 +14,7 @@ const About = () => {
       <div>
         <Card className="container custom-card">
           <Card.Body>
+              
             <Card.Title className="font-weight-bold">
               <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
                 About Me
@@ -20,6 +22,10 @@ const About = () => {
             </Card.Title>
             <br />
             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+              <div
+                className="section-bubble"
+                style={{ backgroundColor: "black" }}
+              >
               <img
                 src={profile}
                 alt="Allan Kris Tiangco"
@@ -30,10 +36,6 @@ const About = () => {
                   objectFit: "cover",
                 }}
               />
-              <div
-                className="section-bubble"
-                style={{ backgroundColor: "black" }}
-              >
                 <div>
                   <div>
                     <h2 style={{ color: "rgb(199, 199, 191)" }}>
@@ -71,6 +73,17 @@ const About = () => {
                           <Instagram />
                         </a>
                       </div>
+                        <img
+                src={straw}
+                alt="Allan Kris Tiangco"
+                style={{
+                  width: "100%",
+                  height: "100px",
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                  paddingLeft: "5%",
+                }}
+              />
                     </div>
                   </div>
                 </div>

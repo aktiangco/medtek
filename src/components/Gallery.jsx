@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import machine from "../assets/images/all.png";
+import machine2 from "../assets/images/all2.png";
 
 const Gallery = () => {
   return (
@@ -45,6 +46,16 @@ const Gallery = () => {
             </div>
           </Card.Text>
           <div className="section-bubble" style={{ backgroundColor: "black" }}>
+            <img
+                src={machine2}
+                className="section-image"
+                style={{
+                  width: "400px",
+                  height: "50%",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
             <div>
               <ul>
                 <h4> Sterilizer Methods</h4>
