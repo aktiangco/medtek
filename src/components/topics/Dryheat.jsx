@@ -379,6 +379,7 @@ const Dryheat = () => {
                   Biological Indicators
                 </h4>
                 <ul>
+                  <li><b><em>Bacillus Atrophaeus</em></b></li>
                   <li>Contain heat-resistant spores</li>
                   <li>Run through the cycle and then incubated</li>
                   <li>No growth = successful sterilization</li>

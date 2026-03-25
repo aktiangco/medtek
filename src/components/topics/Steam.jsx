@@ -609,6 +609,7 @@ const Steam = () => {
                     spores.
                   </h6>
                   <ol>
+                  <li><b><em>Geobacillus stearothermophilus</em></b></li>
                     <li>
                       Place a BI test pack in the sterilizer (usually in the
                       most difficult area for steam to reach).

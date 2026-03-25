@@ -88,6 +88,9 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/group" onClick={closeMenu}>
               Group Project
             </Nav.Link>
+            <Nav.Link as={Link} to="/photo" onClick={closeMenu}>
+              Group Photos
+            </Nav.Link>
 
             <Nav.Link as={Link} to="/about" onClick={closeMenu}>
               About Me

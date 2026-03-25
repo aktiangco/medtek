@@ -79,6 +79,18 @@ const Home = () => {
                     Group Project
                   </button>
                 </Link>
+                <Link to="/photo">
+                  <button
+                    className="rounded custom-btn btn-hover"
+                    style={{
+                      backgroundColor: "#52dcc5",
+                      border: "none",
+                      color: "black",
+                    }}
+                  >
+                    Group Photos
+                  </button>
+                </Link>
               </Card.Text>
             </div>
           </div>

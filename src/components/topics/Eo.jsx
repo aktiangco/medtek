@@ -593,6 +593,7 @@ const Eo = () => {
                   Biological Indicators
                 </h4>
                 <ul>
+                <li><b><em>Bacillus Atrophaeus</em></b></li>
                   <li>
                     Contain bacterial spores used to verify sterilization
                     effectiveness

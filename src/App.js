@@ -18,6 +18,7 @@ import Podcast from './components/topics/Podcast';
 import Group from './components/topics/Group';
 import Presentation from './components/topics/Presentation';
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import Photo from "./components/topics/Photo"
 import './App.css';
 
 const App = () => (
@@ -41,6 +42,7 @@ const App = () => (
         <Route path="/podcast" element={<Podcast />} />
         <Route path="/group" element={<Group />} />
         <Route path="/presentation" element={<Presentation />} /> 
+        <Route path="/photo" element={<Photo />} /> 
       </Routes>
     </div>
     <Footer/>

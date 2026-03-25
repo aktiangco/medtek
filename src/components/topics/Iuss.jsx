@@ -21,7 +21,7 @@ const Iuss = () => {
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
-              Immiediate-Use Steam Sterilizer (IUSS)
+              Immediate-Use Steam Sterilizer (IUSS)
             </h1>
           </Card.Title>
           <br />
@@ -558,6 +558,7 @@ const Iuss = () => {
                   Biological Indicators
                 </h4>
                 <ul>
+                <li><b><em>Geobacillus stearothermophilus</em></b></li>
                   <li>
                     Biological indicators contain bacterial spores used to test
                     sterilization effectiveness.

@@ -29,7 +29,7 @@ const Presentation = () => {
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
-              Immiediate-Use Steam Sterilizer (IUSS)
+              Immediate-Use Steam Sterilizer (IUSS)
             </h1>
           </Card.Title>
           <br />
@@ -45,7 +45,7 @@ const Presentation = () => {
                   objectFit: "cover",
                 }}
               />
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>IUSS Sterilization Facts:</h2>
                 <ul>
                   <li>
@@ -220,8 +220,8 @@ const Presentation = () => {
                   }}
                 />
               </div>
-              <div>
-                <h2>Loading and Unloading</h2>
+              <div style={{ paddingLeft: "10%" }}>
+                <h2>Loading & Unloading</h2>
                 <h4 style={{ textDecoration: "underline" }}>Loading</h4>
                 <ul>
                   <li>
@@ -317,7 +317,7 @@ const Presentation = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={flashpak}
                   className="section-image"
@@ -357,7 +357,7 @@ const Presentation = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>Cleaning IUSS Containers</h2>
                 <ul>
                   <li>Containers must be cleaned after every use.</li>
@@ -403,7 +403,7 @@ const Presentation = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Pros and Cons</h2>
+                <h2>Pros & Cons</h2>
                 <h4 style={{ textDecoration: "underline" }}>Pros</h4>
                 <ul>
                   <li>
@@ -477,16 +477,18 @@ const Presentation = () => {
                   </li>
                 </ul>
               </div>
-              <img
-                src={procon}
-                className="section-image"
-                style={{
-                  width: "400px",
-                  height: "100%",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+              <div style={{ paddingLeft: "10%" }}>
+                <img
+                  src={procon}
+                  className="section-image"
+                  style={{
+                    width: "400px",
+                    height: "100%",
+                    borderRadius: "10%",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
             </div>
           </Card.Text>
           <Card.Text>
@@ -527,7 +529,7 @@ const Presentation = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>How to test Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Physical Monitoring
@@ -564,6 +566,11 @@ const Presentation = () => {
                   Biological Indicators
                 </h4>
                 <ul>
+                  <li>
+                    <b>
+                      <em>Geobacillus stearothermophilus</em>
+                    </b>
+                  </li>
                   <li>
                     Biological indicators contain bacterial spores used to test
                     sterilization effectiveness.
@@ -610,8 +617,8 @@ const Presentation = () => {
                   objectFit: "cover",
                 }}
               />
-              <div>
-                <h2>Dry Heat Sterilization Facts:</h2>
+              <div style={{ paddingLeft: "10%" }}>
+                <h2>Dry Heat Sterilization Facts</h2>
                 <ul>
                   <li>
                     Uses high temperatures without steam to kill microorganisms
@@ -678,7 +685,7 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <strong>Important Notes:</strong>
+                <strong>Important Notes</strong>
                 <ul>
                   <li>
                     Always follow manufacturer’s instructions for cycle
@@ -698,7 +705,7 @@ const Presentation = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={drycycle}
                   className="section-image"
@@ -709,7 +716,6 @@ const Presentation = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br />
                 <br />
                 <br />
                 <img
@@ -753,8 +759,8 @@ const Presentation = () => {
                   }}
                 />
               </div>
-              <div>
-                <h2>Loading and Unloading</h2>
+              <div style={{ paddingLeft: "10%" }}>
+                <h2>Loading & Unloading</h2>
                 <h4 style={{ textDecoration: "underline" }}>Loading:</h4>
                 <ul>
                   <li>
@@ -799,7 +805,7 @@ const Presentation = () => {
                   <li>Do not use items if packaging is compromised</li>
                 </ul>
 
-                <strong>Important Notes:</strong>
+                <strong>Important Notes</strong>
                 <ul>
                   <li>
                     Proper loading ensures effective sterilization by allowing
@@ -849,7 +855,7 @@ const Presentation = () => {
                   <li>Any packaging not labeled for high-temperature use</li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={drywrapper}
                   className="section-image"
@@ -887,8 +893,8 @@ const Presentation = () => {
                   objectFit: "cover",
                 }}
               />
-              <div>
-                <h2>Pros and Cons</h2>
+              <div style={{ paddingLeft: "10%" }}>
+                <h2>Pros & Cons</h2>
                 <h4 style={{ textDecoration: "underline" }}>Pros:</h4>
                 <ul>
                   <li>
@@ -920,7 +926,7 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <strong>Important Note:</strong>
+                <strong>Important Note</strong>
                 <ul>
                   <li>
                     Dry heat is typically used only when steam sterilization is
@@ -957,6 +963,11 @@ const Presentation = () => {
                   Biological Indicators
                 </h4>
                 <ul>
+                  <li>
+                    <b>
+                      <em>Bacillus Atrophaeus</em>
+                    </b>
+                  </li>
                   <li>Contain heat-resistant spores</li>
                   <li>Run through the cycle and then incubated</li>
                   <li>No growth = successful sterilization</li>

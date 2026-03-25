@@ -544,6 +544,7 @@ const Vpro = () => {
                   Biological Indicators
                 </h4>
                 <ul>
+                <li><b><em>Geobacillus stearothermophilus</em></b></li>
                   <li>
                     Contain bacterial spores used to verify sterilization
                     effectiveness
