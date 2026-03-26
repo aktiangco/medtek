@@ -318,7 +318,7 @@ li {
 
 .nav-counter {
   color: #52dcc5;
-  font-weight: bold;
+  white-space: nowrap;
   margin-left: 15px;
 }
 
@@ -328,3 +328,4 @@ li {
     margin-left: 10px;
   }
 }
+
