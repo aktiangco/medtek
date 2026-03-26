@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
 import schoolImage from "../assets/images/ChatGPT.png";
+import PageViewCounter from "./PageViewCounter";
 
 const Home = () => {
   return (
@@ -41,6 +42,7 @@ const Home = () => {
                 instrument decontamination, sterilization, and infection
                 prevention in healthcare settings.
               </Card.Text>
+              <PageViewCounter />
               
               <Card.Text style={{ display: "flex", gap: "15px" }}>
               <div className="section-bubble nav-link rounded method-link">

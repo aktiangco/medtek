@@ -323,10 +323,21 @@ li {
   margin-left: 15px;
 }
 
+.page-counter {
+  color: #52dcc5;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .nav-counter {
     margin-top: 10px;
     margin-left: 0;
+    font-size: 14px;
+  }
+
+  .page-counter {
     font-size: 14px;
   }
 }

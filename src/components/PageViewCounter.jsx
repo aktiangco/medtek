@@ -1,0 +1,35 @@
+import { useEffect, useState } from "react";
+
+function PageViewCounter() {
+  const [count, setCount] = useState("...");
+
+  useEffect(() => {
+    const fetchCount = () => {
+      const path = encodeURIComponent(
+        window.location.pathname +
+          window.location.search +
+          window.location.hash
+      );
+
+      fetch(`https://aktiangco.goatcounter.com/counter/${path}.json`)
+        .then((res) => {
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          return res.json();
+        })
+        .then((data) => setCount(data.count))
+        .catch((err) => {
+          console.error("GoatCounter page error:", err);
+          setCount("Unavailable");
+        });
+    };
+
+    fetchCount();
+    window.addEventListener("hashchange", fetchCount);
+
+    return () => window.removeEventListener("hashchange", fetchCount);
+  }, []);
+
+  return <div className="page-counter">Page Views: {count}</div>;
+}
+
+export default PageViewCounter;
